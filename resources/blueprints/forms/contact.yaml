@@ -1,0 +1,33 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: name
+            field:
+              placeholder: Name
+              type: text
+              display: Name
+              validate:
+                - required
+          -
+            handle: email
+            field:
+              input_type: email
+              placeholder: Email
+              type: text
+              display: Email
+              validate:
+                - required
+          -
+            handle: note
+            field:
+              placeholder: 'Your note goes here'
+              type: textarea
+              display: Note
+              validate:
+                - required
+      -
+        display: 'New Section'

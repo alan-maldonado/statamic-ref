@@ -3,3 +3,10 @@ super: true
 avatar: avatar.png
 id: 32ce3a7f-cbfd-432c-b9c5-4dacfb77d4e6
 password_hash: $2y$12$eUaH3BGzg6/E5F1sBcuU1OgPZVZsSXdEIkuqlR3h8FmzjddEeT55a
+preferences:
+  forms:
+    contact:
+      columns:
+        - email
+        - name
+        - datestamp
